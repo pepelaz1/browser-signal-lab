@@ -1,0 +1,42 @@
+{
+  "checked": "2026-11-03",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "devicePixelRatio": 2,
+    "viewport": [
+      1280,
+      720
+    ],
+    "language": "en-GB",
+    "fonts": "20px sans-serif",
+    "secureContext": true
+  },
+  "fixture": "canvas-audio-v1",
+  "runs": [
+    {
+      "canvasHash": "71023cb0a6bbfc502b48a4915177ce714cb2ee92c02821626169a4601f143520",
+      "audioHash": "9c354d331e7da3e6958d14a3fdcbefb98e34ff93d2f18d519f550549754e8519",
+      "repeatedCanvasReadEqual": true
+    },
+    {
+      "canvasHash": "71023cb0a6bbfc502b48a4915177ce714cb2ee92c02821626169a4601f143520",
+      "audioHash": "9c354d331e7da3e6958d14a3fdcbefb98e34ff93d2f18d519f550549754e8519",
+      "repeatedCanvasReadEqual": true
+    },
+    {
+      "canvasHash": "71023cb0a6bbfc502b48a4915177ce714cb2ee92c02821626169a4601f143520",
+      "audioHash": "9c354d331e7da3e6958d14a3fdcbefb98e34ff93d2f18d519f550549754e8519",
+      "repeatedCanvasReadEqual": true
+    }
+  ],
+  "secondBatchVsBaseline": {
+    "canvasChanged": 0,
+    "audioChanged": 0,
+    "maxAudioAbsoluteError": 0
+  },
+  "nativeAudioSelfComparison": {
+    "samples": 16384,
+    "changed": 0,
+    "rmse": 0
+  }
+}
